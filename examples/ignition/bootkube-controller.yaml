@@ -7,7 +7,7 @@ systemd:
         - name: 40-etcd-cluster.conf
           contents: |
             [Service]
-            Environment="ETCD_IMAGE_TAG=v3.2.0"
+            Environment="ETCD_IMAGE_TAG=v3.2.13"
             Environment="ETCD_NAME={{.etcd_name}}"
             Environment="ETCD_ADVERTISE_CLIENT_URLS=https://{{.domain_name}}:2379"
             Environment="ETCD_INITIAL_ADVERTISE_PEER_URLS=https://{{.domain_name}}:2380"
@@ -127,7 +127,7 @@ storage:
       contents:
         inline: |
           KUBELET_IMAGE_URL=docker://gcr.io/google_containers/hyperkube
-          KUBELET_IMAGE_TAG=v1.8.5
+          KUBELET_IMAGE_TAG=v1.8.7-beta.0
     - path: /etc/ssl/etcd/.empty
       filesystem: root
       mode: 0644
