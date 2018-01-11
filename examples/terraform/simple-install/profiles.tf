@@ -1,10 +1,10 @@
 // Create a CoreOS-install profile
 resource "matchbox_profile" "coreos-install" {
   name   = "coreos-install"
-  kernel = "http://stable.release.core-os.net/amd64-usr/current/coreos_production_pxe.vmlinuz"
+  kernel = "http://alpha.release.core-os.net/amd64-usr/1649.0.0/coreos_production_pxe.vmlinuz"
 
   initrd = [
-    "http://stable.release.core-os.net/amd64-usr/current/coreos_production_pxe_image.cpio.gz",
+    "http://alpha.release.core-os.net/amd64-usr/1649.0.0/coreos_production_pxe_image.cpio.gz",
   ]
 
   args = [
