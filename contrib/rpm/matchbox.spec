@@ -3,7 +3,7 @@
 %global debug_package %{nil}
 
 Name:		matchbox
-Version:	0.6.0
+Version:	0.7.0
 Release:	2%{?dist}
 Summary:	Network boot and provision CoreOS machines
 License:	ASL 2.0
@@ -83,4 +83,3 @@ getent passwd matchbox >/dev/null || \
 - Fix bootcfg user creation
 * Fri Dec 2 2016 <dalton.hubble@coreos.com> - 0.4.1-1
 - Initial package
-
