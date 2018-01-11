@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.7
 LABEL maintainer="Dalton Hubble <dalton.hubble@coreos.com>"
 RUN apk -U add dnsmasq curl
 COPY tftpboot /var/lib/tftpboot
