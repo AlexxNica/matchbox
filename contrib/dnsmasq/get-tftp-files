@@ -13,4 +13,4 @@ cp $DEST/undionly.kpxe $DEST/undionly.kpxe.0
 curl -s -o $DEST/ipxe.efi http://boot.ipxe.org/ipxe.efi
 
 # Any vaguely recent CoreOS grub.efi is fine
-curl -s -o $DEST/grub.efi https://stable.release.core-os.net/amd64-usr/1353.7.0/coreos_production_pxe_grub.efi
+curl -s -o $DEST/grub.efi https://alpha.release.core-os.net/amd64-usr/1649.0.0/coreos_production_pxe_grub.efi
