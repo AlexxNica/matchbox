@@ -3,8 +3,8 @@ matchbox_rpc_endpoint = "matchbox.example.com:8081"
 # ssh_authorized_key = "ADD ME"
 
 cluster_name = "example"
-container_linux_version = "1576.5.0"
-container_linux_channel = "stable"
+container_linux_version = "1649.0.0"
+container_linux_channel = "alpha"
 
 # Machines
 controller_names = ["node1", "node2", "node3"]
