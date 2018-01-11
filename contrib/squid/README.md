@@ -72,8 +72,8 @@ cat policy/etcd3.json
   "id": "etcd3",
   "name": "etcd3",
   "boot": {
-    "kernel": "http://stable.release.core-os.net/amd64-usr/1235.9.0/coreos_production_pxe.vmlinuz",
-    "initrd": ["http://stable.release.core-os.net/amd64-usr/1235.9.0/coreos_production_pxe_image.cpio.gz"],
+    "kernel": "http://alpha.release.core-os.net/amd64-usr/1649.0.0/coreos_production_pxe.vmlinuz",
+    "initrd": ["http://alpha.release.core-os.net/amd64-usr/1649.0.0/coreos_production_pxe.cpio.gz"],
     "args": [
       "coreos.config.url=http://matchbox.foo:8080/ignition?uuid=${uuid}&mac=${mac:hexhyp}",
       "coreos.first_boot=yes",
