@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/coreos/pkg/flagutil"
+	"github.com/sirupsen/logrus"
 
 	web "github.com/coreos/matchbox/matchbox/http"
 	"github.com/coreos/matchbox/matchbox/rpc"
